@@ -17,9 +17,17 @@ Projeto desenvolvido durante a Semana Spring React da Dev Superior.
 - [Java](https://www.java.com/pt-BR/)
 
 
-O Backend foi implementado no [Heroku](http://www.heroku.com/) ,juntamente com o banco de dados PostgreSQL:
-https://sdvendas-marcio.herokuapp.com/ 
+O Backend foi implementado no [Heroku](http://www.heroku.com/) ,juntamente com o banco de dados PostgreSQL e é responsável por fornecer os dados para renderização do front. O acesso se dá pelas seguintes rotas:
 
-O Frontend foi implementado na [Netlify](https://www.netlify.com/):
+- "/sales"
+- "/sellers"
+- "/sales/success-by-seller"
+- "/sales/amount-by-seller"
+
+endpoint: https://sdvendas-marcio.herokuapp.com/ 
+
+
+O Frontend foi implementado na [Netlify](https://www.netlify.com/) , recebe os dados e renderiza os gráficos e vendas ordenados e paginados. A aplicação se encontra em:
+
 https://dsvendas-marciobezerrajr.netlify.app/dashboard
 
