@@ -23,10 +23,8 @@ const DonutChart = () => {
         setChartData({ series: mySeries, labels: myLabels });
         //console.log(chartData);
 
-    }).catch((err) => {
-
-        console.log(err)
     })
+    // .catch((err) => { console.log(err) })
     }, [])
 
    
