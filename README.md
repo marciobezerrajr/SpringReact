@@ -5,6 +5,8 @@ Projeto desenvolvido durante a Semana Spring React da Dev Superior.
 - Backend feito em java utilizando o Framework Spring
 - Frontend feito com React JS
 
+![Dashboard](https://i.ibb.co/09VDD99/dashboard.jpg?raw=true)
+
 ## Foram utilizados:
 
 - [React](https://pt-br.reactjs.org/)
