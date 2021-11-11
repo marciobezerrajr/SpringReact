@@ -6,6 +6,7 @@ Projeto desenvolvido durante a Semana Spring React da Dev Superior.
 - Frontend feito com React JS
 
 ![Dashboard](https://i.ibb.co/09VDD99/dashboard.jpg?raw=true)
+- Aplicação rodando em: https://dsvendas-marciobezerrajr.netlify.app/dashboard
 
 ## Foram utilizados:
 
@@ -21,15 +22,17 @@ Projeto desenvolvido durante a Semana Spring React da Dev Superior.
 
 O Backend foi implementado no [Heroku](http://www.heroku.com/) ,juntamente com o banco de dados PostgreSQL e é responsável por fornecer os dados para renderização do front. O acesso se dá pelas seguintes rotas:
 
+
+endpoint: https://sdvendas-marcio.herokuapp.com/ 
+
+
 - "/sales"
 - "/sellers"
 - "/sales/success-by-seller"
 - "/sales/amount-by-seller"
 
-endpoint: https://sdvendas-marcio.herokuapp.com/ 
-
-
 O Frontend foi implementado na [Netlify](https://www.netlify.com/) , recebe os dados e renderiza os gráficos e vendas ordenados e paginados. A aplicação se encontra em:
 
-https://dsvendas-marciobezerrajr.netlify.app/dashboard
+- Aplicação rodando em: https://dsvendas-marciobezerrajr.netlify.app/dashboard
+
 
